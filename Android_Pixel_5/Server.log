@@ -1,0 +1,70 @@
+2023-01-16 19:12:04:798 [Appium] Welcome to Appium v2.0.0-beta.48
+2023-01-16 19:12:04:802 [Appium] Non-default server args:
+2023-01-16 19:12:04:804 [Appium] { port: 38014, sessionOverride: true }
+2023-01-16 19:12:04:805 [Appium] Attempting to load driver uiautomator2...
+2023-01-16 19:12:04:810 [Appium] Requiring driver at /Users/abdieid/.appium/node_modules/appium-uiautomator2-driver
+2023-01-16 19:12:10:684 [Appium] Appium REST http interface listener started on 0.0.0.0:38014
+2023-01-16 19:12:10:684 [Appium] Available drivers:
+2023-01-16 19:12:10:685 [Appium]   - uiautomator2@2.12.1 (automationName 'UiAutomator2')
+2023-01-16 19:12:10:689 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2023-01-16 19:12:10:966 [HTTP] --> GET /status
+2023-01-16 19:12:10:967 [HTTP] {}
+2023-01-16 19:12:10:971 [AppiumDriver@7bb6] Calling AppiumDriver.getStatus() with args: []
+2023-01-16 19:12:10:972 [AppiumDriver@7bb6] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.48"}}
+2023-01-16 19:12:10:978 [HTTP] <-- GET /status 200 10 ms - 47
+2023-01-16 19:12:10:979 [HTTP] 
+2023-01-16 19:12:10:985 [HTTP] --> GET /status
+2023-01-16 19:12:10:986 [HTTP] {}
+2023-01-16 19:12:10:987 [AppiumDriver@7bb6] Calling AppiumDriver.getStatus() with args: []
+2023-01-16 19:12:10:988 [AppiumDriver@7bb6] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.48"}}
+2023-01-16 19:12:10:990 [HTTP] <-- GET /status 200 4 ms - 47
+2023-01-16 19:12:10:990 [HTTP] 
+2023-01-16 19:12:13:539 [HTTP] Request idempotency key: 2d122d8e-caf4-46f2-b1b2-109ad3413efe
+2023-01-16 19:12:13:654 [HTTP] --> POST /session
+2023-01-16 19:12:13:655 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/abdieid/Desktop/AppiumProjects/appiumBdd/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:chromeDriverPort":"11000","appium:deviceName":"Pixel_5","appium:systemPort":"10000","appium:udid":"emulator-5554","platformName":"android"}}}
+2023-01-16 19:12:13:656 [AppiumDriver@7bb6] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:app":"/Users/abdieid/Desktop/AppiumProjects/appiumBdd/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","appium:chromeDriverPort":"11000","appium:deviceName":"Pixel_5","appium:systemPort":"10000","appium:udid":"emulator-5554","platformName":"android"}}]
+2023-01-16 19:12:13:657 [AppiumDriver@7bb6] Event 'newSessionRequested' logged at 1673896333657 (19:12:13 GMT+0000 (Greenwich Mean Time))
+2023-01-16 19:12:13:663 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'android'
+2023-01-16 19:12:13:663 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2023-01-16 19:12:13:663 [Appium] Will require it at /Users/abdieid/.appium/node_modules/appium-uiautomator2-driver
+2023-01-16 19:12:13:664 [Appium] Requiring driver at /Users/abdieid/.appium/node_modules/appium-uiautomator2-driver
+2023-01-16 19:12:13:664 [AppiumDriver@7bb6] Appium v2.0.0-beta.48 creating new AndroidUiautomator2Driver (v2.12.1) session
+2023-01-16 19:12:13:664 [AppiumDriver@7bb6] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2023-01-16 19:12:13:664 [AppiumDriver@7bb6] Appium's BaseDriver version is 9.1.0
+2023-01-16 19:12:13:664 [AppiumDriver@7bb6] AndroidUiautomator2Driver's BaseDriver version is 9.1.0
+2023-01-16 19:12:13:665 [AppiumDriver@7bb6] There are no active sessions for cleanup
+2023-01-16 19:12:13:667 [AndroidUiautomator2Driver@2fe4] Creating session with W3C capabilities: {
+2023-01-16 19:12:13:667 [AndroidUiautomator2Driver@2fe4]   "alwaysMatch": {
+2023-01-16 19:12:13:667 [AndroidUiautomator2Driver@2fe4]     "platformName": "android",
+2023-01-16 19:12:13:667 [AndroidUiautomator2Driver@2fe4]     "appium:app": "/Users/abdieid/Desktop/AppiumProjects/appiumBdd/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk",
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]     "appium:appPackage": "com.swaglabsmobileapp",
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]     "appium:automationName": "UiAutomator2",
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]     "appium:chromeDriverPort": "11000",
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]     "appium:deviceName": "Pixel_5",
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]     "appium:systemPort": "10000",
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]     "appium:udid": "emulator-5554"
+2023-01-16 19:12:13:668 [AndroidUiautomator2Driver@2fe4]   },
+2023-01-16 19:12:13:669 [AndroidUiautomator2Driver@2fe4]   "firstMatch": [
+2023-01-16 19:12:13:669 [AndroidUiautomator2Driver@2fe4]     {}
+2023-01-16 19:12:13:669 [AndroidUiautomator2Driver@2fe4]   ]
+2023-01-16 19:12:13:669 [AndroidUiautomator2Driver@2fe4] }
+2023-01-16 19:12:13:672 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-01-16 19:12:13:673 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-01-16 19:12:13:675 [AndroidUiautomator2Driver@2fe4] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2023-01-16 19:12:13:675 [AndroidUiautomator2Driver@2fe4] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2023-01-16 19:12:13:678 [AndroidUiautomator2Driver@2fe4 (af79fe09)] Session created with session id: af79fe09-27b6-4567-b501-ff9663712d37
+2023-01-16 19:12:13:682 [BaseDriver] Using local app '/Users/abdieid/Desktop/AppiumProjects/appiumBdd/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2023-01-16 19:12:13:865 [AndroidUiautomator2Driver@2fe4 (af79fe09)] Checking whether app is actually present
+2023-01-16 19:12:13:875 [AndroidUiautomator2Driver@2fe4 (af79fe09)] Deleting UiAutomator2 session
+2023-01-16 19:12:13:877 [AppiumDriver@7bb6] Event 'newSessionStarted' logged at 1673896333877 (19:12:13 GMT+0000 (Greenwich Mean Time))
+2023-01-16 19:12:13:956 [AppiumDriver@7bb6] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+2023-01-16 19:12:13:956 [AppiumDriver@7bb6]     at requireSdkRoot (/Users/abdieid/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:52:11)
+2023-01-16 19:12:13:956 [AppiumDriver@7bb6]     at Function.createADB (/Users/abdieid/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.js:80:37)
+2023-01-16 19:12:13:956 [AppiumDriver@7bb6]     at Object.createBaseADB (/Users/abdieid/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+2023-01-16 19:12:13:956 [AppiumDriver@7bb6]     at Object.getDeviceInfoFromCaps (/Users/abdieid/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/android-helpers.js:220:29)
+2023-01-16 19:12:13:957 [AppiumDriver@7bb6]     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/abdieid/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:348:40)
+2023-01-16 19:12:13:957 [AppiumDriver@7bb6]     at AndroidUiautomator2Driver.createSession (/Users/abdieid/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:239:18)
+2023-01-16 19:12:13:957 [AppiumDriver@7bb6]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:336:35)
+2023-01-16 19:12:13:988 [HTTP] <-- POST /session 500 333 ms - 816
+2023-01-16 19:12:13:989 [HTTP] 
