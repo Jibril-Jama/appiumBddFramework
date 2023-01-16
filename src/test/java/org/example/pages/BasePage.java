@@ -33,6 +33,8 @@ public class BasePage {
     }
 
     public void waitForVisibility(WebElement e) {
+        System.out.println("Check if driver is null"+driver);
+
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(TestUtils.WAIT));
         wait.until(ExpectedConditions.visibilityOf(e));
     }

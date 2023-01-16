@@ -33,7 +33,7 @@ public class Hooks {
         // start server
 
         new ServerManager().startServer();
-
+        System.out.println("123");
         new DriverManager().initializeDriver();
 
 

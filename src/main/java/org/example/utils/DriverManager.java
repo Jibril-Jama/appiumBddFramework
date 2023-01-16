@@ -20,6 +20,7 @@ public class DriverManager {
     }
 
     public void initializeDriver() throws Exception {
+        System.out.println("initializeDriver");
         AppiumDriver driver = null;
         GlobalParams params = new GlobalParams();
         PropertyManager props = new PropertyManager();
