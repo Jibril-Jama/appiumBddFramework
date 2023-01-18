@@ -48,7 +48,7 @@ public class ServerManager {
         HashMap<String, String> environment = new HashMap<String, String>();
         environment.put("PATH", "/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home:/Users/abdieid/Library/Android/sdk" + System.getenv("PATH"));
         environment.put("ANDROID_HOME", "/Users/abdieid/Library/Android/sdk");
-        environment.put("JAVA_HOME", "enter_your_java_home_path");
+        environment.put("JAVA_HOME", "/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home");
         return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
                 .usingDriverExecutable(new File("/usr/local/bin/node"))
                 .withAppiumJS(new File("/usr/local/lib/node_modules/appium/build/lib/main.js"))
