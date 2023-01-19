@@ -74,10 +74,10 @@ public class Hooks {
                 scenario.attach(fileContent, "image/png", scenario.getName());
                 scenario.log("ScreenShot attached");*/
 
-                if(scenario.isFailed()){
-                    byte[] screenshot = new DriverManager().getDriver().getScreenshotAs(OutputType.BYTES);
-                    scenario.attach(screenshot, "image/png", scenario.getName());
-                }
+                byte[] screenshot = new DriverManager().getDriver().getScreenshotAs(OutputType.BYTES);
+                scenario.attach(screenshot, "image/png", scenario.getName());
+                scenario.log("ScreenShot attached");
+
             }
         }
         catch (Exception e) {
